@@ -20,8 +20,11 @@
         git status
 
     - Stage `journey.txt`.
-        
+        git add journey.txt
+
     - Commit your changes.
+        git commit -m "Add journey.txt file to repo."
+
 5. **Deletion:**
     - Before deleting, ensure the file to be deleted is first committed. Create a text file named `temp.txt` with the content: "This file is meant to be deleted." Then, stage and commit.
     - Delete `temp.txt` using Git's deletion command.
