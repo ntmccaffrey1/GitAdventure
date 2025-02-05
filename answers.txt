@@ -46,13 +46,26 @@
         git status
         git add *
         git commit -m "commit all new files"
+
 7. **Ignoring Files:**
     - Create a `.gitignore` file to ignore all files ending with `.log`. Stage and commit.
+        echo "*.log" >> .gitignore
+        git status
+        git add *
+        git commit -m "gitignore file creation"
+
     - Verify that they are being ignored by creating a dummy .log file and checking that it doesn't appear in the `git status`.
+        touch .log
+
 8. **Diving Deeper:**
     - Change `adventure.txt` to add "Exploring the depths of Git commands and their powers."
+        echo "Exploring the depths of Git commands and their powers." >> adventure.txt
+
     - Use Git for a concise status overview.
+        git status
+
     - Stage and commit your changes.
+        
 9. **History and Restoration**:
     - Explore your commit history.
     - Revert `adventure.txt` to its initial state.
