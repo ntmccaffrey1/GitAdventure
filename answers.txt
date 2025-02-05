@@ -44,7 +44,8 @@
 
     - Stage and commit your changes.
         git status
-        
+        git add *
+        git commit -m "commit all new files"
 7. **Ignoring Files:**
     - Create a `.gitignore` file to ignore all files ending with `.log`. Stage and commit.
     - Verify that they are being ignored by creating a dummy .log file and checking that it doesn't appear in the `git status`.
