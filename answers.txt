@@ -31,12 +31,20 @@
         git status
         git add temp.txt
         git commit -m "Create temp.txt file"
-        
+
     - Delete `temp.txt` using Git's deletion command.
+        git rm temp.txt
+
 6. **Renaming:**
     - Rename `journey.txt` to `adventure.txt`.
+        git mv journey.txt adventure.txt
+
     - Update its content to: "My journey evolves into an adventure with Git."
+        echo "My journey evolves into an adventure with Git." >> adventure.txt
+
     - Stage and commit your changes.
+        git status
+        
 7. **Ignoring Files:**
     - Create a `.gitignore` file to ignore all files ending with `.log`. Stage and commit.
     - Verify that they are being ignored by creating a dummy .log file and checking that it doesn't appear in the `git status`.
