@@ -27,6 +27,11 @@
 
 5. **Deletion:**
     - Before deleting, ensure the file to be deleted is first committed. Create a text file named `temp.txt` with the content: "This file is meant to be deleted." Then, stage and commit.
+        echo "This file is meant to be deleted." >> temp.txt
+        git status
+        git add temp.txt
+        git commit -m "Create temp.txt file"
+        
     - Delete `temp.txt` using Git's deletion command.
 6. **Renaming:**
     - Rename `journey.txt` to `adventure.txt`.
