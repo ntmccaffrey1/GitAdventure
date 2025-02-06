@@ -74,4 +74,4 @@
         git log
 
     - Revert `adventure.txt` to its initial state.
-        git checkout 7b5f681b98eacd10a4486b75b8eb3d8df414b003 adventure.txt
+        git checkout 7b5f681b98eacd10a4486b75b8eb3d8df414b003
